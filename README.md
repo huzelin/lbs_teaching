@@ -15,11 +15,16 @@ LBS服务端口与branch分配
 ----------------
 ![](https://github.com/huzelin/lbs_teaching/blob/master/resource/arch.png) 
 
+* blade的使用
+```
+ $ blade build ...
+```
+
 * 出租车模拟器
 ```
 启动：
  $ cd mod/bin/simulator
- $ ./start.sh
+ $ ./run.sh
 关闭：
  $ ./stop.sh
 ```
@@ -46,3 +51,6 @@ http请求:
  结果为Json格式
 ```
 
+Notice
+-------------------
+* 更新与查询分别在两个同的线程中执行，存在互斥访问的问题

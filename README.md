@@ -20,5 +20,5 @@ LBS服务课程设计
 ```
 
 * 整体服务架构
-![](https://github.com/huzelin/lbs_teaching/blob/master/resource/arch.png) 
+![](https://github.com/huzelin/lbs_teaching/blob/master/resource/arch.svg) 
  
